@@ -1,0 +1,9 @@
+
+def calcular_area_retangulo (comprimento,largura):
+    resultado = (comprimento * largura)
+    return resultado
+comprimento = float(input('digite o comprimento:'))
+largura = float(input('digite a largura:'))
+
+def_area = calcular_area_retangulo ( largura, comprimento)
+print(f' a area do retangulo é: {def_area}')
